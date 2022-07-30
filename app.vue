@@ -10,8 +10,8 @@ const themeStore = useThemeStore();
 </script>
 
 <template>
-	<div :data-theme="themeStore.theme.dark ? 'rosepine' : 'dawn'">
-		<NuxtPage />
+	<div :data-theme="themeStore.theme.dark ? 'light' : 'dark'">
+		<NuxtPage/>
 		<NuxtLayout name="custom" />
 	</div>
 </template>
