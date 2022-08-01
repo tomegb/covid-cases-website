@@ -24,32 +24,34 @@
 		<div class="flex flex-wrap">
 			<div class="stats shadow">
 				<div class="stat">
-					<div class="stat-title">Total Page Views</div>
-					<div class="stat-value">89,400</div>
-					<div class="stat-desc">21% more than last month</div>
+					<div class="stat-title">Cases</div>
+					<div class="stat-value">Data</div>
+					<div class="stat-desc">Delta Cases</div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
-					<div class="stat-title">Total Page Views</div>
-					<div class="stat-value">89,400</div>
-					<div class="stat-desc">21% more than last month</div>
+					<div class="stat-title">Deaths</div>
+					<div class="stat-value">Data</div>
+					<div class="stat-desc">Delta Deaths</div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
-					<div class="stat-title">Total Page Views</div>
-					<div class="stat-value">89,400</div>
-					<div class="stat-desc">21% more than last month</div>
+					<div class="stat-title">Recovered</div>
+					<div class="stat-value">Data</div>
+					<div class="stat-desc">Delta Recovered</div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
-					<div class="stat-title">Total Page Views</div>
-					<div class="stat-value">89,400</div>
-					<div class="stat-desc">21% more than last month</div>
+					<div class="stat-title">Vaccinated</div>
+					<div class="stat-value">Data</div>
+					<div class="stat-desc">Delta Vaccinated</div>
 				</div>
 			</div>
+		</div>
+		<div class="flex flex-wrap">
 			<div class="radial-progress" style="--value: 70; --size: 8rem; --thickness: 0.7rem">80%</div>
 			<div class="overflow-x-auto">
 				<table class="table w-full">
@@ -57,32 +59,32 @@
 					<thead>
 						<tr>
 							<th></th>
-							<th>Name</th>
-							<th>Job</th>
-							<th>Favorite Color</th>
+							<th>Data</th>
+							<th>Data</th>
+							<th>Data</th>
 						</tr>
 					</thead>
 					<tbody>
 						<!-- row 1 -->
 						<tr>
 							<th>1</th>
-							<td>Cy Ganderton</td>
-							<td>Quality Control Specialist</td>
-							<td>Blue</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 2 -->
 						<tr>
 							<th>2</th>
-							<td>Hart Hagerty</td>
-							<td>Desktop Support Technician</td>
-							<td>Purple</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 3 -->
 						<tr>
 							<th>3</th>
-							<td>Brice Swyre</td>
-							<td>Tax Accountant</td>
-							<td>Red</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 					</tbody>
 				</table>
@@ -93,32 +95,32 @@
 					<thead>
 						<tr>
 							<th></th>
-							<th>Name</th>
-							<th>Job</th>
-							<th>Favorite Color</th>
+							<th>Data</th>
+							<th>Data</th>
+							<th>Data</th>
 						</tr>
 					</thead>
 					<tbody>
 						<!-- row 1 -->
 						<tr>
 							<th>1</th>
-							<td>Cy Ganderton</td>
-							<td>Quality Control Specialist</td>
-							<td>Blue</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 2 -->
 						<tr>
 							<th>2</th>
-							<td>Hart Hagerty</td>
-							<td>Desktop Support Technician</td>
-							<td>Purple</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 3 -->
 						<tr>
 							<th>3</th>
-							<td>Brice Swyre</td>
-							<td>Tax Accountant</td>
-							<td>Red</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 					</tbody>
 				</table>
@@ -129,32 +131,32 @@
 					<thead>
 						<tr>
 							<th></th>
-							<th>Name</th>
-							<th>Job</th>
-							<th>Favorite Color</th>
+							<th>Data</th>
+							<th>Data</th>
+							<th>Data</th>
 						</tr>
 					</thead>
 					<tbody>
 						<!-- row 1 -->
 						<tr>
 							<th>1</th>
-							<td>Cy Ganderton</td>
-							<td>Quality Control Specialist</td>
-							<td>Blue</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 2 -->
 						<tr>
 							<th>2</th>
-							<td>Hart Hagerty</td>
-							<td>Desktop Support Technician</td>
-							<td>Purple</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 3 -->
 						<tr>
 							<th>3</th>
-							<td>Brice Swyre</td>
-							<td>Tax Accountant</td>
-							<td>Red</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 					</tbody>
 				</table>
@@ -165,32 +167,32 @@
 					<thead>
 						<tr>
 							<th></th>
-							<th>Name</th>
-							<th>Job</th>
-							<th>Favorite Color</th>
+							<th>Data</th>
+							<th>Data</th>
+							<th>Data</th>
 						</tr>
 					</thead>
 					<tbody>
 						<!-- row 1 -->
 						<tr>
 							<th>1</th>
-							<td>Cy Ganderton</td>
-							<td>Quality Control Specialist</td>
-							<td>Blue</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 2 -->
 						<tr>
 							<th>2</th>
-							<td>Hart Hagerty</td>
-							<td>Desktop Support Technician</td>
-							<td>Purple</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 						<!-- row 3 -->
 						<tr>
 							<th>3</th>
-							<td>Brice Swyre</td>
-							<td>Tax Accountant</td>
-							<td>Red</td>
+							<td>Data</td>
+							<td>Data</td>
+							<td>Data</td>
 						</tr>
 					</tbody>
 				</table>
