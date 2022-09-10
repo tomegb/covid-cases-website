@@ -3,6 +3,8 @@ Website that evaluates the current corona cases and makes them available to the 
 
 #### API:
 
+https://api.corona-zahlen.org
+
 #### Languages & Frameworks:
 
 [<img align="left" alt="Vue" width="26px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/vue.svg" />][wikipediavue]
