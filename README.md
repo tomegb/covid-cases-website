@@ -3,6 +3,7 @@ Website that evaluates the current corona cases and makes them available to the 
 
 #### API:
 
+Cases by RKI API
 https://api.corona-zahlen.org
 
 #### Languages & Frameworks:
