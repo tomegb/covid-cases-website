@@ -23,4 +23,3 @@ https://api.corona-zahlen.org
 [wikipediatailwind]: https://en.wikipedia.org/wiki/Tailwind_CSS
 
 
-
