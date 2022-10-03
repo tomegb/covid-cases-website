@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "pinia": "^2.0.16"
+    "pinia": "^2.0.16",
+    "vue-axios": "^3.4.1"
   },
   "devDependencies": {
     "@fontsource/inter": "^4.5.11",
