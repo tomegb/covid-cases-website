@@ -3,7 +3,7 @@
 		<div class="... pb-8">
 			<select class="select select-bordered w-full max-w-xs">
 				<option disabled selected>States</option>
-				<option>Baden Württemberg</option>
+				<option @click="loadData">Baden Württemberg</option>
 				<option>Bayern</option>
 				<option>Berlin</option>
 				<option>Brandenburg</option>
@@ -25,178 +25,48 @@
 			<div class="stats shadow">
 				<div class="stat">
 					<div class="stat-title">Cases</div>
-					<div class="stat-value">Data</div>
-					<div class="stat-desc">Delta Cases</div>
+					<div class="stat-value">
+						<p v-for="item in list" :key="item.id">{{ item.cases }}</p>
+					</div>
+					<div class="stat-desc"></div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
 					<div class="stat-title">Deaths</div>
-					<div class="stat-value">Data</div>
-					<div class="stat-desc">Delta Deaths</div>
+					<div class="stat-value"></div>
+					<div class="stat-desc"></div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
 					<div class="stat-title">Recovered</div>
-					<div class="stat-value">Data</div>
-					<div class="stat-desc">Delta Recovered</div>
+					<div class="stat-value"></div>
+					<div class="stat-desc"></div>
 				</div>
 			</div>
 			<div class="stats shadow">
 				<div class="stat">
 					<div class="stat-title">Vaccinated</div>
-					<div class="stat-value">Data</div>
-					<div class="stat-desc">Delta Vaccinated</div>
+					<div class="stat-value"></div>
 				</div>
-			</div>
-		</div>
-		<div class="flex flex-wrap">
-			<div class="radial-progress" style="--value: 70; --size: 8rem; --thickness: 0.7rem">80%</div>
-			<div class="overflow-x-auto">
-				<table class="table w-full">
-					<!-- head -->
-					<thead>
-						<tr>
-							<th></th>
-							<th>Data</th>
-							<th>Data</th>
-							<th>Data</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!-- row 1 -->
-						<tr>
-							<th>1</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 2 -->
-						<tr>
-							<th>2</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 3 -->
-						<tr>
-							<th>3</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="overflow-x-auto">
-				<table class="table w-full">
-					<!-- head -->
-					<thead>
-						<tr>
-							<th></th>
-							<th>Data</th>
-							<th>Data</th>
-							<th>Data</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!-- row 1 -->
-						<tr>
-							<th>1</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 2 -->
-						<tr>
-							<th>2</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 3 -->
-						<tr>
-							<th>3</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="overflow-x-auto">
-				<table class="table w-full">
-					<!-- head -->
-					<thead>
-						<tr>
-							<th></th>
-							<th>Data</th>
-							<th>Data</th>
-							<th>Data</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!-- row 1 -->
-						<tr>
-							<th>1</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 2 -->
-						<tr>
-							<th>2</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 3 -->
-						<tr>
-							<th>3</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="overflow-x-auto">
-				<table class="table w-full">
-					<!-- head -->
-					<thead>
-						<tr>
-							<th></th>
-							<th>Data</th>
-							<th>Data</th>
-							<th>Data</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!-- row 1 -->
-						<tr>
-							<th>1</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 2 -->
-						<tr>
-							<th>2</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-						<!-- row 3 -->
-						<tr>
-							<th>3</th>
-							<td>Data</td>
-							<td>Data</td>
-							<td>Data</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 		</div>
 	</div>
 </template>
+
+<script>
+import axios from 'axios';
+import Vue from 'vue';
+import VueAxios from 'vue-axios';
+Vue.use(VueAxios, axios);
+export default {
+	name: 'DashboardCards',
+	async mounted() {
+		Vue.axios.get('https://api.corona-zahlen.org/germany/').then((resp) => {
+			// eslint-disable-next-line no-console
+			console.warn(resp.data.data);
+		});
+	}
+};
+</script>
