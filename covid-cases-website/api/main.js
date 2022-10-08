@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import App from 'app'
-
-import axios from 'axios';
-import VueAxios from 'vue-axios';
-Vue.useAttrs(VueAxios, axios);
-
-new Vue({
-    render: h => h(App),
-}).$mount('#app')
+document.onload = new (function () {
+	fetch('https://api.corona-zahlen.org/germany')
+		.then((response) => response.json())
+		.then((data) => {
+			// eslint-disable-next-line no-console
+			console.log(data.url);
+		})
+		.catch((error) => {
+			// eslint-disable-next-line no-console
+			console.log('An error has occured: ' + error);
+		});
+})();
