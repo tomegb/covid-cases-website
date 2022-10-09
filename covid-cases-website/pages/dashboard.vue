@@ -3,7 +3,10 @@
 	<link rel="shortcut icon" type="image/png" href="/static/favicon.png" />
 	<title>Dashboard</title>
 	<navbar />
-	<dashboard_cards />
+	<div class="min-h-screen">
+		<dashboard_cards />
+		<cases_chart />
+	</div>
 	<main_footer />
 </template>
 
