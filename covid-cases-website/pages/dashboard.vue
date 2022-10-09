@@ -5,7 +5,7 @@
 	<navbar />
 	<div class="min-h-screen">
 		<dashboard_cards />
-		<cases_chart />
+		<!--<dashboard_charts />-->
 	</div>
 	<main_footer />
 </template>
