@@ -1,51 +1,61 @@
 <template>
-	<div class="min-h-screen">
-		<div class="flex flex-wrap">
-			<div class="stats shadow">
-				<div class="stat">
-					<div class="stat-title">Cases</div>
-					<div class="stat-value">
-						<p key="normal.cases" for="data of cases">{{ cases.cases }}</p>
+		<div class="... pt-12">
+			<div class="... flex justify-center">
+				<div class="flex flex-wrap">
+					<div class="... px-8">
+						<div class="stats bg-base-200 shadow">
+							<div class="stat">
+								<div class="stat-title">Cases</div>
+								<div class="stat-value">
+									<p key="normal.cases" for="data of cases">{{ cases.cases }}</p>
+								</div>
+								<div class="stat-desc">
+									<p v-for="delta of cases" :key="delta.cases">{{ delta.cases }}</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="stat-desc">
-						<p v-for="delta of cases" :key="delta.cases">{{ delta.cases }}</p>
+					<div class="... px-8">
+						<div class="stats bg-base-200 shadow">
+							<div class="stat">
+								<div class="stat-title">Deaths</div>
+								<div class="stat-value">
+									<p key="normal.cases" for="data of cases">{{ cases.deaths }}</p>
+								</div>
+								<div class="stat-desc">
+									<p v-for="delta of deaths" :key="delta.deaths">{{ delta.deaths }}</p>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="stats shadow">
-				<div class="stat">
-					<div class="stat-title">Deaths</div>
-					<div class="stat-value">
-						<p key="normal.cases" for="data of cases">{{ cases.deaths }}</p>
+					<div class="... px-8">
+						<div class="stats bg-base-200 shadow">
+							<div class="stat">
+								<div class="stat-title">Recovered</div>
+								<div class="stat-value">
+									<p key="normal.cases" for="data of cases">{{ cases.recovered }}</p>
+								</div>
+								<div class="stat-desc">
+									<p v-for="delta of recovered" :key="delta.recovered">{{ delta.recovered }}</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="stat-desc">
-						<p v-for="delta of deaths" :key="delta.deaths">{{ delta.deaths }}</p>
-					</div>
-				</div>
-			</div>
-			<div class="stats shadow">
-				<div class="stat">
-					<div class="stat-title">Recovered</div>
-					<div class="stat-value">
-						<p key="normal.cases" for="data of cases">{{ cases.recovered }}</p>
-					</div>
-					<div class="stat-desc">
-						<p v-for="delta of recovered" :key="delta.recovered">{{ delta.recovered }}</p>
-					</div>
-				</div>
-			</div>
-			<div class="stats shadow">
-				<div class="stat">
-					<div class="stat-title">Incidence 7 Days</div>
-					<div class="stat-value">
-						<p v-for="data of incidence7Days" :key="data.incidence7Days">
-							{{ data.incidence7Days }}
-						</p>
+					<div class="... px-8">
+						<div class="stats bg-base-200 shadow">
+							<div class="stat">
+								<div class="stat-title">Incidence 7 Days</div>
+								<div class="stat-value">
+									<p v-for="data of incidence7Days" :key="data.incidence7Days">
+										{{ data.incidence7Days }}
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 </template>
 
 <script>
