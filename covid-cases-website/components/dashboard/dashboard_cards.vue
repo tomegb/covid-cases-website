@@ -50,7 +50,7 @@
 				<div class="... px-8">
 					<div class="stats bg-base-200 shadow">
 						<div class="stat">
-							<div class="stat-title">Incidence 7 Days</div>
+							<div class="stat-title">Week Incidence</div>
 							<div class="stat-value">
 								<p key="data.weekIncidence" for="data of weekIncidence">
 									{{ weekIncidence.weekIncidence }}
