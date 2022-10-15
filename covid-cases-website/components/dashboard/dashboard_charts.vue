@@ -1,6 +1,5 @@
 <template>
 	<div class="... pt-24"></div>
-	<h2>Cases</h2>
 	<line-chart :chart-data="arrCases" :options="chartOptions" label="Cases"></line-chart>
 </template>
 
