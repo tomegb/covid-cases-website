@@ -4,12 +4,15 @@ import { Line } from 'vue-chartjs';
 export default {
 	extends: Line,
 	props: {
+		// eslint-disable-next-line vue/require-default-prop
 		label: {
 			type: String
 		},
+		// eslint-disable-next-line vue/require-default-prop
 		chartData: {
 			type: ArrayBuffer
 		},
+		// eslint-disable-next-line vue/require-default-prop
 		options: {
 			type: Object
 		}
