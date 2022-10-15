@@ -21,5 +21,3 @@ https://api.corona-zahlen.org
 [wikipediajs]: https://en.wikipedia.org/wiki/JavaScript
 [wikipedianuxt]: https://en.wikipedia.org/wiki/Nuxt.js
 [wikipediatailwind]: https://en.wikipedia.org/wiki/Tailwind_CSS
-
-
