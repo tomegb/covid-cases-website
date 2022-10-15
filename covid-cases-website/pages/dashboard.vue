@@ -6,6 +6,7 @@
 	<div class="min-h-screen">
 		<dashboard_cards />
 		<dashboard_charts />
+		<caseschart />
 	</div>
 	<main_footer />
 </template>
