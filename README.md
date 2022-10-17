@@ -14,8 +14,6 @@ https://api.corona-zahlen.org
 [<img align="left" alt="Nuxt" width="26px" src="https://cdn.discordapp.com/attachments/932265928522088450/1012051262197481594/Download_3.png" />][wikipedianuxt]
 [<img align="left" alt="Tailwind" width="26px" src="https://cdn.discordapp.com/attachments/932265928522088450/1012051261748678746/Download_2.png" />][wikipediatailwind]
 
-
-
 [wikipediavue]: https://en.wikipedia.org/wiki/Vue.js
 [wikipediahtml]: https://en.wikipedia.org/wiki/HTML
 [wikipediajs]: https://en.wikipedia.org/wiki/JavaScript
