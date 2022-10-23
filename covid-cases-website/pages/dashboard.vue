@@ -11,4 +11,3 @@
 	<main_footer />
 </template>
 
-<script></script>
