@@ -10,3 +10,7 @@
 	</div>
 	<main_footer />
 </template>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a096bc4520222354e6442c96ab24b11fcc442b9b
